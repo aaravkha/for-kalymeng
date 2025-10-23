@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -19,6 +20,13 @@
     align-items: center;
     flex-direction: column;
     overflow: hidden;
+  }
+
+  .title {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #3a57e8;
+    margin-bottom: 15px;
   }
 
   .section {
@@ -52,7 +60,7 @@
     border-radius: 15px;
     font-size: 1.1em;
     cursor: pointer;
-    color: #ffffff; /* white emoji */
+    color: #ffffff; /* white text */
     font-weight: 600;
     margin-top: 20px;
     transition: 0.3s;
@@ -93,6 +101,9 @@
 </style>
 </head>
 <body>
+
+<!-- Title -->
+<div class="title">to the light of my life</div>
 
 <!-- Opening Section -->
 <div id="opening" class="section active">
